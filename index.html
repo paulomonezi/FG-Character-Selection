@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/estilo.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+
+    <title>Choose your fighter!</title>
+  </head>
+
+  <!-- Alterar nome chunli -->
+
+  <body>
+    <main>
+      <header class="cabecalho">
+        <h1 class="titulo">Character Select</h1>
+      </header>
+
+      <div class="selecao-de-personagens">
+        <div class="personagem-grande personagem-jogador-1">
+          <img src="./src/imagens/ryu.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1" />
+          <div class="nome">
+            <h2>ryu</h2>
+          </div>
+        </div>
+
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="ryu" data-name="ryu">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/ryu.jpg" alt="Personagem ryu" />
+          </li>
+
+          <li class="personagem" id="bison" data-name="Bison">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/bison.jpg" alt="Personagem Bison" />
+          </li>
+          <li class="personagem" id="ken" data-name="Ken">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/ken.jpg" alt="Personagem Ken" />
+          </li>
+
+          <li class="personagem" id="chunli" data-name="chunli">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/chunli.jpg" alt="Personagem chunli" />
+          </li>
+
+          <li class="personagem" id="dhalsin" data-name="Dhalsin">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/dhalsin.jpg" alt="Personagem Dhalsin" />
+          </li>
+
+          <li class="personagem jogador-2-selecionado" id="cammy" data-name="cammy">
+            <span class="tag">2P</span>
+            <img src="./src/imagens/cammy.jpg" alt="Personagem cammy" />
+          </li>
+
+          <li class="personagem" id="zangief" data-name="Doutor Doom">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/zangief.jpg" alt="Personagem Doutor Doom" />
+          </li>
+
+          <li class="personagem" id="akuma" data-name="akuma">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/akuma.jpg" alt="Personagem akuma" />
+          </li>
+
+          <li class="personagem" id="ibuki" data-name="Fênix">
+            <span class="tag">1P</span>
+            <img src="./src/imagens/ibuki.jpg" alt="Personagem Fênix" />
+          </li>
+        </ul>
+
+        <div class="personagem-grande personagem-jogador-2">
+          <img src="./src/imagens/cammy.png" alt="Personagem selecionado jogador 2" />
+          <div class="nome">
+            <h2>cammy</h2>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
