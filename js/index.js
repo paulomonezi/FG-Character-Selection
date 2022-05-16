@@ -6,7 +6,7 @@ personagens.forEach((personagem) => {
     const idSelecionado = personagem.attributes.id.value;
 
     //se passado o mouse por cima do ultron não faz nada por que ele já foi selecionado pelo player 2
-    if (idSelecionado === "ultron") return;
+    if (idSelecionado === "ken") return;
 
     //busca o nome do personagem que já está selecionado
     const nomeSelecionado = personagem.getAttribute("data-name");

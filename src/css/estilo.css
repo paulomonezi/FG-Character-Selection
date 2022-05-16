@@ -167,6 +167,7 @@ body {
   
   /* como está sempre selecionado o jogador 2 têm que ter a tag sempre aparencendo */
   .selecao-de-personagens .lista-de-personagens .personagem.jogador-2-selecionado .tag {
+    
     display: block;
     color: var(--cor-vermelha-fraca);
     animation: text-glowing-red .3s ease-in-out infinite;
